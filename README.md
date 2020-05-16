@@ -21,7 +21,7 @@ The ```PostgreSQL``` module was tested with logs from versions versions 9.5 on U
 1) Enter the following script into the console using elevated privileges
 
 ```
-curl https://github.com/themarcusaurelius/vizion.ai/blob/master/beat-install-scripts/install-config-postgresql.sh > install-config-postgresql.sh; chmod a+x  install-config-postgresql.sh; ./install-config-postgresql.sh _PLACEHOLDER_API_ENDPOINT_
+curl https://github.com/vizionelkhelp/vizion.ai/blob/master/beat-install-scripts/install-config-postgresql.sh > install-config-postgresql.sh; chmod a+x  install-config-postgresql.sh; ./install-config-postgresql.sh _PLACEHOLDER_API_ENDPOINT_
 ```
 
 2) When prompted, select the proper environment to complete the installation.
@@ -52,10 +52,10 @@ service filebeat restart
 
 <i>If you haven't already installed filebeat...</i>
 
-1) As administrator, enter the following command in Powershell or download the zip file [here](https://github.com/themarcusaurelius/Filebeat-Modules/archive/master.zip).
+1) As administrator, enter the following command in Powershell or download the zip file [here](https://github.com/vizionelkhelp/Filebeat-Modules/archive/master.zip).
 
 ```
-Start-BitsTransfer -Source 'https://github.com/themarcusaurelius/Filebeat-Modules/archive/master.zip' -Destination 'C:\Users\Administrator\Downloads\Filebeat-Modules.zip'
+Start-BitsTransfer -Source 'https://github.com/vizionelkhelp/Filebeat-Modules/archive/master.zip' -Destination 'C:\Users\Administrator\Downloads\Filebeat-Modules.zip'
 ```
 
 2) Unzip the package and extract the contents to the `C:/` drive.
